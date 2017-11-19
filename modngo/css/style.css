@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+  font-weight: 400;
+  margin: 0px;
+  overflow: hidden;
+  font-family: 'Open Sans';
+}
+
+#container{
+  z-index: 100;
+  position: absolute;
+  display: block;
+  float: left;
+  overflow: hidden;
+  background: #696969;
+  background: rgba(206, 220, 231);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(206,220,231,1) 8%, rgba(89,106,114,1) 100%);
+  background: -webkit-radial-gradient(center, ellipse cover,rgba(206,220,231,1) 8%, rgba(89,106,114,1) 100%);
+  background: radial-gradient(ellipse at center,rgba(206,220,231,1) 8%, rgba(89,106,114,1) 100%);
+  filter: progrid:DXImagetransform.Microsoft.gradient( start)
+
+}
+
+.texturesSwitch {
+	z-index:888;
+	position:absolute;
+}
+.texturesSwitch p {
+	width:auto;
+	height:auto;
+	color:white;
+	background:crimson;
+	text-align:center;
+	line-height:30px;
+	cursor:pointer;
+	margin: 0;
+	padding:5px 20px;
+}
+
+ul{
+  list-style: none;
+}
